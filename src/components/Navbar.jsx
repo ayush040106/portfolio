@@ -6,11 +6,12 @@ function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const navItems = [
-    { name: "About", link: "#about" },
-    { name: "Projects", link: "#projects" },
-    { name: "Experience", link: "#experience" },
-    { name: "Contact", link: "#contact" },
-  ];
+  { name: "About", link: "#about" },
+  { name: "Projects", link: "#projects" },
+  { name: "Experience", link: "#experience" },
+  { name: "Certifications", link: "#certifications" },
+  { name: "Contact", link: "#contact" },
+];
 
   return (
     <motion.nav
